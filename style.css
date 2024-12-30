@@ -1,0 +1,64 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    align-items: center; 
+    justify-content: center;
+    background: linear-gradient(135deg,rgb(0, 0, 0),rgb(2, 53, 77));
+    display: flex;
+
+}
+#todo{
+    height: 120px;
+    width: 500px;
+    display: flex;
+    background:rgb(230, 142, 29) ;
+    border-radius: 18px;
+    
+}
+#container{
+    width: 500px;
+    background: #c7cc40;
+    border-radius: 18px;
+}
+#list-container{
+    padding-left: 50px;
+}
+
+.box{
+    padding-left: 10px;
+}
+#task-input{
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+    background: rgb(251, 251, 251);
+}
+#add-task-btn{
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    align-items: center;
+}
+.box,img{
+    height: 50px;
+    border-radius: 20%;
+    padding: 5px;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+
+}
